@@ -1,4 +1,4 @@
-import TodoComponent from './TodoComponent';
+import TodoComponent from './Todo';
 import { Todo } from '@prisma/client';
 
 const TodoList = ({ todos }: { todos: Todo[] | [] }) => {
